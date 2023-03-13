@@ -129,6 +129,7 @@ def find_travel():
 # Tkinter
 root = tk.Tk() 
 root.geometry('1000x500')
+root.title("GPS")
 
 def start_action(event):
     global start, result
